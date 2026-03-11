@@ -1,0 +1,46 @@
+SISTEMA DE GESTIÓN DE EMPLEADOS - INSTRUCCIONES DE EJECUCIÓN
+
+Materia: Estructuras de Datos
+Estudiante: [Tu Nombre y Apellido]
+
+REQUISITOS DEL SISTEMA
+
+Entorno de Desarrollo: Dev-C++ (Versión 5.11 o superior recomendada).
+
+Compilador: MinGW GCC (Viene integrado con Dev-C++).
+
+Sistema Operativo: Windows.
+
+ADVERTENCIA CRÍTICA ANTES DE COMPILAR
+
+Para que el programa compile correctamente, es OBLIGATORIO abrir
+el archivo del proyecto y NO los archivos de código fuente de
+manera individual.
+
+Si usted abre únicamente el archivo "main.cpp" e intenta compilarlo,
+Dev-C++ arrojará un error de "Undefined reference" (Fallo del Linker)
+ya que no sabrá cómo vincular el resto de los módulos (.cpp y .h).
+
+PASOS EXACTOS PARA EJECUTAR EL PROGRAMA
+
+Paso 1: Descomprima esta carpeta en su totalidad (si la recibió en .zip).
+Paso 2: Busque el archivo llamado "SistemaEmpleados.dev" (el icono
+suele ser un cuadrado azul con una 'C++' blanca).
+Paso 3: Haga doble clic en "SistemaEmpleados.dev". Esto abrirá el
+IDE Dev-C++ cargando todos los módulos y la configuración
+correcta en el panel izquierdo.
+Paso 4: En el menú superior de Dev-C++, vaya a "Execute" (Ejecutar)
+y seleccione "Compile & Run" (Compilar y Ejecutar), o
+simplemente presione la tecla F11.
+Paso 5: El sistema cargará los 10 registros iniciales y desplegará
+el menú interactivo en la consola.
+
+NOTAS ADICIONALES
+
+Durante la compilación, Dev-C++ puede generar o actualizar un archivo
+llamado "Makefile.win". Si el IDE pregunta si desea recargar este
+archivo, puede cerrarlo o ignorarlo, no afecta la ejecución.
+
+Los datos se cargan dinámicamente en memoria RAM usando la librería
+estándar <vector>. No se requieren archivos de texto externos (.txt)
+para la base de datos inicial.
