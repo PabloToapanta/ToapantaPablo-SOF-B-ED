@@ -2,8 +2,6 @@
 #define EMPLEADO_H
 #include <string>
 #include <stdexcept>
-
-
 class Empleado{
 	private:
 		static int contador_id;
